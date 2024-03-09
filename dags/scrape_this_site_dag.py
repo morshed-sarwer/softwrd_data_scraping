@@ -30,5 +30,4 @@ scrape_hockey_teams_task = PythonOperator(
     python_callable=scrape_hockey_teams_data,
 )
 
-
 scrape_country_task >> scrape_hockey_teams_task

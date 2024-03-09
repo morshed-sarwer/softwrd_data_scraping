@@ -94,4 +94,4 @@ def scrape_hockey_teams_data():
 
 # scrape_hockey_teams_data()
 # scrape_countries_data()
-# upload_to_mongo('countries_data.csv','countries')
+upload_to_mongo('countries_data.csv','countries')
