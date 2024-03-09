@@ -822,3 +822,531 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'selenium'
 [2024-03-09T03:09:17.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
 [2024-03-09T03:09:17.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.033 seconds
+[2024-03-09T03:09:47.169+0000] {processor.py:161} INFO - Started process (PID=1527) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:09:47.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:09:47.172+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:09:47.171+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:09:47.185+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:09:47.182+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:09:47.187+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:09:47.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.034 seconds
+[2024-03-09T03:10:17.337+0000] {processor.py:161} INFO - Started process (PID=1536) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:10:17.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:10:17.338+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:10:17.338+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:10:17.352+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:10:17.349+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:10:17.353+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:10:17.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.036 seconds
+[2024-03-09T03:10:47.546+0000] {processor.py:161} INFO - Started process (PID=1545) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:10:47.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:10:47.548+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:10:47.548+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:10:47.560+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:10:47.557+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:10:47.561+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:10:47.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.035 seconds
+[2024-03-09T03:11:17.717+0000] {processor.py:161} INFO - Started process (PID=1554) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:11:17.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:11:17.718+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:11:17.718+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:11:17.732+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:11:17.729+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:11:17.733+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:11:17.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.033 seconds
+[2024-03-09T03:11:47.884+0000] {processor.py:161} INFO - Started process (PID=1563) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:11:47.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:11:47.886+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:11:47.886+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:11:47.899+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:11:47.896+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:11:47.900+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:11:47.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.033 seconds
+[2024-03-09T03:12:18.061+0000] {processor.py:161} INFO - Started process (PID=1572) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:12:18.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:12:18.062+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:12:18.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:12:18.076+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:12:18.073+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:12:18.077+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:12:18.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.036 seconds
+[2024-03-09T03:12:48.237+0000] {processor.py:161} INFO - Started process (PID=1581) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:12:48.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:12:48.239+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:12:48.238+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:12:48.254+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:12:48.249+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:12:48.256+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:12:48.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.038 seconds
+[2024-03-09T03:13:18.413+0000] {processor.py:161} INFO - Started process (PID=1590) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:13:18.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:13:18.415+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:13:18.415+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:13:18.430+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:13:18.426+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:13:18.432+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:13:18.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.038 seconds
+[2024-03-09T03:13:48.594+0000] {processor.py:161} INFO - Started process (PID=1599) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:13:48.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:13:48.596+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:13:48.595+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:13:48.612+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:13:48.608+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:13:48.614+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:13:48.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.041 seconds
+[2024-03-09T03:14:18.770+0000] {processor.py:161} INFO - Started process (PID=1608) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:14:18.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:14:18.771+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:14:18.771+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:14:18.785+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:14:18.781+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:14:18.786+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:14:18.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.034 seconds
+[2024-03-09T03:14:48.938+0000] {processor.py:161} INFO - Started process (PID=1617) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:14:48.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:14:48.939+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:14:48.939+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:14:48.952+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:14:48.949+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:14:48.953+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:14:48.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.031 seconds
+[2024-03-09T03:15:19.095+0000] {processor.py:161} INFO - Started process (PID=1626) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:15:19.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:15:19.096+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:15:19.096+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:15:19.108+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:15:19.105+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:15:19.109+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:15:19.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.031 seconds
+[2024-03-09T03:15:49.282+0000] {processor.py:161} INFO - Started process (PID=1633) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:15:49.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:15:49.284+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:15:49.284+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:15:49.297+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:15:49.294+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:15:49.299+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:15:49.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.035 seconds
+[2024-03-09T03:16:19.471+0000] {processor.py:161} INFO - Started process (PID=1642) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:16:19.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:16:19.472+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:16:19.472+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:16:19.485+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:16:19.482+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:16:19.486+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:16:19.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.033 seconds
+[2024-03-09T03:16:49.654+0000] {processor.py:161} INFO - Started process (PID=1651) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:16:49.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:16:49.656+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:16:49.655+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:16:49.668+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:16:49.666+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:16:49.670+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:16:49.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.031 seconds
+[2024-03-09T03:17:19.832+0000] {processor.py:161} INFO - Started process (PID=1660) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:17:19.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:17:19.833+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:17:19.833+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:17:19.845+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:17:19.842+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:17:19.846+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:17:19.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.032 seconds
+[2024-03-09T03:17:50.017+0000] {processor.py:161} INFO - Started process (PID=1669) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:17:50.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:17:50.018+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:17:50.018+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:17:50.031+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:17:50.028+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:17:50.032+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:17:50.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.031 seconds
+[2024-03-09T03:18:20.199+0000] {processor.py:161} INFO - Started process (PID=1678) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:18:20.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:18:20.201+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:18:20.201+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:18:20.215+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:18:20.211+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:18:20.216+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:18:20.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.034 seconds
+[2024-03-09T03:18:50.381+0000] {processor.py:161} INFO - Started process (PID=1687) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:18:50.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:18:50.383+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:18:50.382+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:18:50.395+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:18:50.392+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:18:50.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:18:50.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.032 seconds
+[2024-03-09T03:19:20.564+0000] {processor.py:161} INFO - Started process (PID=1696) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:19:20.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:19:20.566+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:19:20.566+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:19:20.579+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:19:20.576+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:19:20.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:19:20.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.035 seconds
+[2024-03-09T03:19:50.756+0000] {processor.py:161} INFO - Started process (PID=1705) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:19:50.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:19:50.758+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:19:50.758+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:19:50.771+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:19:50.768+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:19:50.773+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:19:50.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.033 seconds
+[2024-03-09T03:20:20.939+0000] {processor.py:161} INFO - Started process (PID=1714) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:20:20.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:20:20.940+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:20:20.940+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:20:20.954+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:20:20.950+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:20:20.955+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:20:20.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.033 seconds
+[2024-03-09T03:20:51.132+0000] {processor.py:161} INFO - Started process (PID=1723) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:20:51.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:20:51.133+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:20:51.133+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:20:51.147+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:20:51.144+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:20:51.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:20:51.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.034 seconds
+[2024-03-09T03:21:21.307+0000] {processor.py:161} INFO - Started process (PID=1732) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:21:21.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:21:21.308+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:21:21.308+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:21:21.322+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:21:21.319+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:21:21.323+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:21:21.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.032 seconds
+[2024-03-09T03:21:51.496+0000] {processor.py:161} INFO - Started process (PID=1741) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:21:51.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:21:51.497+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:21:51.497+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:21:51.513+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:21:51.509+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:21:51.514+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:21:51.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.039 seconds
+[2024-03-09T03:22:21.682+0000] {processor.py:161} INFO - Started process (PID=1750) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:22:21.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:22:21.684+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:22:21.684+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:22:21.697+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:22:21.694+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:22:21.698+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:22:21.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.033 seconds
+[2024-03-09T03:22:51.862+0000] {processor.py:161} INFO - Started process (PID=1759) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:22:51.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:22:51.864+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:22:51.864+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:22:51.879+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:22:51.876+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:22:51.881+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:22:51.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.037 seconds
+[2024-03-09T03:23:22.041+0000] {processor.py:161} INFO - Started process (PID=1768) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:23:22.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:23:22.043+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:23:22.043+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:23:22.056+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:23:22.053+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:23:22.057+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:23:22.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.035 seconds
+[2024-03-09T03:23:52.216+0000] {processor.py:161} INFO - Started process (PID=1777) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:23:52.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:23:52.217+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:23:52.217+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:23:52.233+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:23:52.228+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:23:52.234+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:23:52.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.036 seconds
+[2024-03-09T03:24:22.402+0000] {processor.py:161} INFO - Started process (PID=1786) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:24:22.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:24:22.403+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:24:22.403+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:24:22.416+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:24:22.413+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:24:22.417+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:24:22.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.034 seconds
+[2024-03-09T03:24:52.576+0000] {processor.py:161} INFO - Started process (PID=1795) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:24:52.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:24:52.578+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:24:52.578+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:24:52.593+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:24:52.590+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:24:52.595+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:24:52.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.041 seconds
+[2024-03-09T03:25:22.760+0000] {processor.py:161} INFO - Started process (PID=1804) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:25:22.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:25:22.762+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:25:22.762+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:25:22.776+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:25:22.773+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:25:22.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:25:22.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.034 seconds
+[2024-03-09T03:25:52.938+0000] {processor.py:161} INFO - Started process (PID=1813) to work on /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:25:52.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_bikroy_dag.py for tasks to queue
+[2024-03-09T03:25:52.939+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:25:52.939+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:25:52.952+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:25:52.949+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_bikroy_dag.py", line 4, in <module>
+    import scrape_data_from_bikroy
+  File "/opt/airflow/dags/scrape_data_from_bikroy.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-03-09T03:25:52.954+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_bikroy_dag.py
+[2024-03-09T03:25:52.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_bikroy_dag.py took 0.034 seconds
