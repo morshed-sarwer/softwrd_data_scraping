@@ -1,0 +1,15 @@
+[2024-03-09T01:52:43.903+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrape_country_data.scrape_country manual__2024-03-09T01:52:42.692709+00:00 [queued]>
+[2024-03-09T01:52:43.911+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrape_country_data.scrape_country manual__2024-03-09T01:52:42.692709+00:00 [queued]>
+[2024-03-09T01:52:43.912+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2024-03-09T01:52:43.923+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): scrape_country> on 2024-03-09 01:52:42.692709+00:00
+[2024-03-09T01:52:43.928+0000] {standard_task_runner.py:60} INFO - Started process 254 to run task
+[2024-03-09T01:52:43.930+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'scrape_country_data', 'scrape_country', 'manual__2024-03-09T01:52:42.692709+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/scrape_this_site_dag.py', '--cfg-path', '/tmp/tmpo_hkqh3y']
+[2024-03-09T01:52:43.933+0000] {standard_task_runner.py:88} INFO - Job 15: Subtask scrape_country
+[2024-03-09T01:52:43.970+0000] {task_command.py:423} INFO - Running <TaskInstance: scrape_country_data.scrape_country manual__2024-03-09T01:52:42.692709+00:00 [running]> on host 5ce09bd66e36
+[2024-03-09T01:52:44.177+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='morshed' AIRFLOW_CTX_DAG_ID='scrape_country_data' AIRFLOW_CTX_TASK_ID='scrape_country' AIRFLOW_CTX_EXECUTION_DATE='2024-03-09T01:52:42.692709+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-09T01:52:42.692709+00:00'
+[2024-03-09T01:52:44.178+0000] {logging_mixin.py:188} INFO - calling from airfow
+[2024-03-09T01:52:46.208+0000] {logging_mixin.py:188} INFO - called
+[2024-03-09T01:52:46.210+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-09T01:52:46.218+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=scrape_country_data, task_id=scrape_country, execution_date=20240309T015242, start_date=20240309T015243, end_date=20240309T015246
+[2024-03-09T01:52:46.269+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-09T01:52:46.282+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

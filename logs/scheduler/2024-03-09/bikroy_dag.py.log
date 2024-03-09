@@ -1,0 +1,455 @@
+[2024-03-09T00:38:29.669+0000] {processor.py:161} INFO - Started process (PID=6784) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:38:29.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:38:29.676+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:38:29.675+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:38:29.691+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:38:29.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.045 seconds
+[2024-03-09T00:38:36.707+0000] {processor.py:161} INFO - Started process (PID=6785) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:38:36.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:38:36.710+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:38:36.710+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:38:36.725+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:38:36.722+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 14, in <module>
+    dag=DAG(
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2024-03-09T00:38:36.726+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:38:36.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.043 seconds
+[2024-03-09T00:39:06.891+0000] {processor.py:161} INFO - Started process (PID=6792) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:06.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:39:06.893+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:06.892+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:06.901+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:06.899+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 14, in <module>
+    dag=DAG(
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2024-03-09T00:39:06.902+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:06.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.029 seconds
+[2024-03-09T00:39:08.920+0000] {processor.py:161} INFO - Started process (PID=6793) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:08.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:39:08.923+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:08.923+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:08.955+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:09.163+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:09.163+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:scrape_this_site
+[2024-03-09T00:39:09.174+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:09.174+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:scrape_this_site
+[2024-03-09T00:39:09.182+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:09.182+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:scrape_this_site
+[2024-03-09T00:39:09.183+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:09.183+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:39:09.197+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:09.197+0000] {dag.py:3069} INFO - Creating ORM DAG for scrape_this_site
+[2024-03-09T00:39:09.208+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:09.208+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:39:09.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.311 seconds
+[2024-03-09T00:39:20.301+0000] {processor.py:161} INFO - Started process (PID=6800) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:20.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:39:20.303+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:20.303+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:20.323+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:20.334+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:20.333+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:39:20.357+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:20.356+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:39:20.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.082 seconds
+[2024-03-09T00:39:28.345+0000] {processor.py:161} INFO - Started process (PID=6801) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:28.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:39:28.348+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:28.347+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:28.363+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:28.371+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:28.371+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:39:28.389+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:28.388+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:39:28.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.065 seconds
+[2024-03-09T00:39:47.456+0000] {processor.py:161} INFO - Started process (PID=6808) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:47.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:39:47.460+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:47.460+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:47.481+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:39:47.569+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:47.568+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:39:47.586+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:39:47.586+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:39:47.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.155 seconds
+[2024-03-09T00:40:00.563+0000] {processor.py:161} INFO - Started process (PID=6809) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:00.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:40:00.566+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:00.566+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:00.584+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:00.594+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:00.594+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:40:00.616+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:00.616+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:40:00.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.079 seconds
+[2024-03-09T00:40:26.714+0000] {processor.py:161} INFO - Started process (PID=6816) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:26.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:40:26.717+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:26.717+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:26.741+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:26.833+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:26.832+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:40:26.851+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:26.851+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:40:26.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.162 seconds
+[2024-03-09T00:40:35.965+0000] {processor.py:161} INFO - Started process (PID=6817) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:35.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:40:35.969+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:35.968+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:35.998+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:36.008+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:36.008+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:40:36.027+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:36.027+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:40:36.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.083 seconds
+[2024-03-09T00:40:44.011+0000] {processor.py:161} INFO - Started process (PID=6825) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:44.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:40:44.013+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:44.013+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:44.035+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:40:44.045+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:44.045+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:40:44.065+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:40:44.065+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:40:44.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.079 seconds
+[2024-03-09T00:41:14.219+0000] {processor.py:161} INFO - Started process (PID=6832) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:41:14.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:41:14.221+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:41:14.221+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:41:14.233+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:41:14.308+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:41:14.307+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:41:14.323+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:41:14.323+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:41:14.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.123 seconds
+[2024-03-09T00:41:41.351+0000] {processor.py:161} INFO - Started process (PID=6833) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:41:41.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:41:41.353+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:41:41.353+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:41:41.362+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:41:41.361+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 3
+    from airflow.operators import
+                                 ^
+SyntaxError: invalid syntax
+[2024-03-09T00:41:41.363+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:41:41.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.028 seconds
+[2024-03-09T00:41:56.435+0000] {processor.py:161} INFO - Started process (PID=6840) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:41:56.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:41:56.438+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:41:56.437+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:41:56.447+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:41:56.446+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 3
+    from airflow.
+                 ^
+SyntaxError: invalid syntax
+[2024-03-09T00:41:56.447+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:41:56.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.033 seconds
+[2024-03-09T00:42:07.507+0000] {processor.py:161} INFO - Started process (PID=6841) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:42:07.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:42:07.509+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:42:07.509+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:42:07.518+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:42:07.517+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 3
+    from airflow.operators
+                          ^
+SyntaxError: invalid syntax
+[2024-03-09T00:42:07.518+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:42:07.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.029 seconds
+[2024-03-09T00:42:25.620+0000] {processor.py:161} INFO - Started process (PID=6848) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:42:25.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:42:25.621+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:42:25.621+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:42:25.629+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:42:25.628+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 3
+    from airflow.operators.python_operator
+                                          ^
+SyntaxError: invalid syntax
+[2024-03-09T00:42:25.629+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:42:25.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.028 seconds
+[2024-03-09T00:42:35.681+0000] {processor.py:161} INFO - Started process (PID=6849) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:42:35.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:42:35.683+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:42:35.683+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:42:35.710+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:42:35.785+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:42:35.785+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:42:35.801+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:42:35.801+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:42:35.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.140 seconds
+[2024-03-09T00:43:04.951+0000] {processor.py:161} INFO - Started process (PID=6856) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:43:04.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:43:04.952+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:43:04.952+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:43:04.969+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:43:04.978+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:43:04.978+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:43:04.995+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:43:04.995+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:43:05.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.064 seconds
+[2024-03-09T00:43:35.104+0000] {processor.py:161} INFO - Started process (PID=6863) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:43:35.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:43:35.105+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:43:35.105+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:43:35.118+0000] {processor.py:840} INFO - DAG(s) 'scrape_this_site' retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:43:35.131+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:43:35.131+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T00:43:35.148+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:43:35.148+0000] {dag.py:3834} INFO - Setting next_dagrun for scrape_this_site to None, run_after=None
+[2024-03-09T00:43:35.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.063 seconds
+[2024-03-09T00:44:04.268+0000] {processor.py:161} INFO - Started process (PID=6870) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:04.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:44:04.270+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:44:04.269+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:04.286+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:44:04.283+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 21, in <module>
+    scrape_coutry_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2024-03-09T00:44:04.287+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:04.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.035 seconds
+[2024-03-09T00:44:16.345+0000] {processor.py:161} INFO - Started process (PID=6877) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:16.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:44:16.347+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:44:16.346+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:16.354+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:44:16.354+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 23
+    DAG=dag1,
+    ^
+SyntaxError: invalid syntax
+[2024-03-09T00:44:16.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:16.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.026 seconds
+[2024-03-09T00:44:27.431+0000] {processor.py:161} INFO - Started process (PID=6878) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:27.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:44:27.433+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:44:27.432+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:27.454+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:44:27.451+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 21, in <module>
+    scrape_coutry_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2024-03-09T00:44:27.454+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:27.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.048 seconds
+[2024-03-09T00:44:35.478+0000] {processor.py:161} INFO - Started process (PID=6879) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:35.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:44:35.479+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:44:35.479+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:35.488+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:44:35.487+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 23
+    DAG=dag1,
+    ^
+SyntaxError: invalid syntax
+[2024-03-09T00:44:35.488+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:35.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.027 seconds
+[2024-03-09T00:44:52.614+0000] {processor.py:161} INFO - Started process (PID=6886) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:52.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:44:52.616+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:44:52.616+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:52.629+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:44:52.628+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 23
+    DAG=dag1,
+    ^
+SyntaxError: invalid syntax
+[2024-03-09T00:44:52.630+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:44:52.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.040 seconds
+[2024-03-09T00:45:14.715+0000] {processor.py:161} INFO - Started process (PID=6893) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:45:14.716+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:45:14.717+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:45:14.716+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:45:14.725+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:45:14.724+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 23
+    DAG=dag1,
+    ^
+SyntaxError: invalid syntax
+[2024-03-09T00:45:14.725+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:45:14.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.028 seconds
+[2024-03-09T00:45:44.904+0000] {processor.py:161} INFO - Started process (PID=6900) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:45:44.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:45:44.906+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:45:44.906+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:45:44.914+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:45:44.914+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 23
+    DAG=dag1,
+    ^
+SyntaxError: invalid syntax
+[2024-03-09T00:45:44.915+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:45:44.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.028 seconds
+[2024-03-09T00:46:15.046+0000] {processor.py:161} INFO - Started process (PID=6907) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:46:15.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:46:15.047+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:46:15.047+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:46:15.055+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:46:15.054+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 23
+    DAG=dag1,
+    ^
+SyntaxError: invalid syntax
+[2024-03-09T00:46:15.055+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:46:15.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.024 seconds
+[2024-03-09T00:46:43.189+0000] {processor.py:161} INFO - Started process (PID=6914) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:46:43.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:46:43.191+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:46:43.191+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:46:43.201+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:46:43.200+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 24
+    DAG=dag1,
+    ^
+SyntaxError: invalid syntax
+[2024-03-09T00:46:43.201+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:46:43.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.028 seconds
+[2024-03-09T00:47:12.332+0000] {processor.py:161} INFO - Started process (PID=6921) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:47:12.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:47:12.333+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:47:12.333+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:47:12.341+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:47:12.340+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 24
+    DAG=dag1,
+    ^
+SyntaxError: invalid syntax
+[2024-03-09T00:47:12.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:47:12.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.027 seconds
+[2024-03-09T00:47:17.370+0000] {processor.py:161} INFO - Started process (PID=6922) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:47:17.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:47:17.371+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:47:17.371+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:47:17.386+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:47:17.384+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 4, in <module>
+    from scripts.scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+ModuleNotFoundError: No module named 'scripts.scrape_data_from_scrapethissite'
+[2024-03-09T00:47:17.387+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:47:17.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.035 seconds
+[2024-03-09T00:47:47.523+0000] {processor.py:161} INFO - Started process (PID=6929) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:47:47.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:47:47.525+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:47:47.524+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:47:47.534+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:47:47.532+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 4, in <module>
+    from scripts.scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+ModuleNotFoundError: No module named 'scripts.scrape_data_from_scrapethissite'
+[2024-03-09T00:47:47.534+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:47:47.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.026 seconds
+[2024-03-09T00:48:17.667+0000] {processor.py:161} INFO - Started process (PID=6936) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:48:17.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:48:17.669+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:48:17.669+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:48:17.683+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:48:17.681+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 4, in <module>
+    from scripts.scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+ModuleNotFoundError: No module named 'scripts.scrape_data_from_scrapethissite'
+[2024-03-09T00:48:17.684+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:48:17.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.033 seconds
+[2024-03-09T00:48:47.827+0000] {processor.py:161} INFO - Started process (PID=6944) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:48:47.828+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:48:47.829+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:48:47.829+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:48:47.838+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:48:47.836+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 4, in <module>
+    from scripts.scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+ModuleNotFoundError: No module named 'scripts.scrape_data_from_scrapethissite'
+[2024-03-09T00:48:47.839+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:48:47.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.027 seconds
+[2024-03-09T00:49:17.963+0000] {processor.py:161} INFO - Started process (PID=6951) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:49:17.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:49:17.965+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:49:17.964+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:49:17.975+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:49:17.972+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 4, in <module>
+    from scripts.scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+ModuleNotFoundError: No module named 'scripts.scrape_data_from_scrapethissite'
+[2024-03-09T00:49:17.976+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:49:17.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.029 seconds
+[2024-03-09T00:49:48.104+0000] {processor.py:161} INFO - Started process (PID=6958) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:49:48.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:49:48.106+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:49:48.106+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:49:48.116+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:49:48.114+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 4, in <module>
+    from scripts.scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+ModuleNotFoundError: No module named 'scripts.scrape_data_from_scrapethissite'
+[2024-03-09T00:49:48.117+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:49:48.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.030 seconds
+[2024-03-09T00:50:18.246+0000] {processor.py:161} INFO - Started process (PID=6965) to work on /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:50:18.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bikroy_dag.py for tasks to queue
+[2024-03-09T00:50:18.247+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:50:18.247+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:50:18.257+0000] {logging_mixin.py:188} INFO - [2024-03-09T00:50:18.255+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/bikroy_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bikroy_dag.py", line 4, in <module>
+    from scripts.scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+ModuleNotFoundError: No module named 'scripts.scrape_data_from_scrapethissite'
+[2024-03-09T00:50:18.258+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bikroy_dag.py
+[2024-03-09T00:50:18.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bikroy_dag.py took 0.029 seconds
