@@ -3444,3 +3444,363 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'pymongo'
 [2024-03-09T03:25:42.275+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
 [2024-03-09T03:25:42.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.438 seconds
+[2024-03-09T03:26:13.043+0000] {processor.py:161} INFO - Started process (PID=1820) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:26:13.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:26:13.045+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:26:13.045+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:26:13.464+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:26:13.459+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:26:13.465+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:26:13.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.438 seconds
+[2024-03-09T03:26:44.213+0000] {processor.py:161} INFO - Started process (PID=1829) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:26:44.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:26:44.214+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:26:44.214+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:26:44.630+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:26:44.625+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:26:44.631+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:26:44.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.432 seconds
+[2024-03-09T03:27:15.388+0000] {processor.py:161} INFO - Started process (PID=1838) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:27:15.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:27:15.390+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:27:15.390+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:27:15.789+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:27:15.784+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:27:15.791+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:27:15.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.418 seconds
+[2024-03-09T03:27:46.566+0000] {processor.py:161} INFO - Started process (PID=1847) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:27:46.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:27:46.568+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:27:46.567+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:27:46.970+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:27:46.965+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:27:46.972+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:27:46.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.422 seconds
+[2024-03-09T03:28:17.738+0000] {processor.py:161} INFO - Started process (PID=1856) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:28:17.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:28:17.739+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:28:17.739+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:28:18.168+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:28:18.163+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:28:18.169+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:28:18.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.447 seconds
+[2024-03-09T03:28:48.910+0000] {processor.py:161} INFO - Started process (PID=1865) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:28:48.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:28:48.911+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:28:48.911+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:28:49.332+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:28:49.327+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:28:49.333+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:28:49.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.438 seconds
+[2024-03-09T03:29:20.082+0000] {processor.py:161} INFO - Started process (PID=1874) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:29:20.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:29:20.083+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:29:20.083+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:29:20.484+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:29:20.479+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:29:20.485+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:29:20.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.419 seconds
+[2024-03-09T03:29:51.260+0000] {processor.py:161} INFO - Started process (PID=1883) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:29:51.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:29:51.261+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:29:51.261+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:29:51.679+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:29:51.674+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:29:51.680+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:29:51.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.436 seconds
+[2024-03-09T03:30:22.486+0000] {processor.py:161} INFO - Started process (PID=1892) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:30:22.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:30:22.488+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:30:22.487+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:30:22.966+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:30:22.961+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:30:22.968+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:30:22.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.502 seconds
+[2024-03-09T03:30:53.653+0000] {processor.py:161} INFO - Started process (PID=1901) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:30:53.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:30:53.654+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:30:53.654+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:30:54.081+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:30:54.076+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:30:54.083+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:30:54.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.448 seconds
+[2024-03-09T03:31:24.823+0000] {processor.py:161} INFO - Started process (PID=1912) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:31:24.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:31:24.825+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:31:24.825+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:31:25.280+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:31:25.275+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:31:25.281+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:31:25.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.473 seconds
+[2024-03-09T03:31:56.008+0000] {processor.py:161} INFO - Started process (PID=1921) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:31:56.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:31:56.009+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:31:56.009+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:31:56.448+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:31:56.444+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:31:56.449+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:31:56.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.457 seconds
+[2024-03-09T03:32:27.189+0000] {processor.py:161} INFO - Started process (PID=1930) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:32:27.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:32:27.191+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:32:27.190+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:32:27.610+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:32:27.605+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:32:27.611+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:32:27.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.437 seconds
+[2024-03-09T03:32:58.375+0000] {processor.py:161} INFO - Started process (PID=1939) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:32:58.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:32:58.376+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:32:58.376+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:32:58.767+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:32:58.762+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:32:58.768+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:32:58.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.408 seconds
+[2024-03-09T03:33:29.555+0000] {processor.py:161} INFO - Started process (PID=1948) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:33:29.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:33:29.556+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:33:29.556+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:33:29.945+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:33:29.941+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:33:29.947+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:33:29.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.406 seconds
+[2024-03-09T03:34:00.744+0000] {processor.py:161} INFO - Started process (PID=1957) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:34:00.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:34:00.745+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:34:00.745+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:34:01.132+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:34:01.126+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:34:01.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:34:01.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.405 seconds
+[2024-03-09T03:34:31.919+0000] {processor.py:161} INFO - Started process (PID=1966) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:34:31.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:34:31.920+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:34:31.920+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:34:32.317+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:34:32.313+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:34:32.319+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:34:32.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.415 seconds
+[2024-03-09T03:35:03.104+0000] {processor.py:161} INFO - Started process (PID=1975) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:35:03.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:35:03.106+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:35:03.106+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:35:03.582+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:35:03.577+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:35:03.583+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:35:03.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.494 seconds
+[2024-03-09T03:35:34.279+0000] {processor.py:161} INFO - Started process (PID=1984) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:35:34.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:35:34.280+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:35:34.280+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:35:34.775+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:35:34.769+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:35:34.776+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:35:34.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.515 seconds
+[2024-03-09T03:36:05.472+0000] {processor.py:161} INFO - Started process (PID=1993) to work on /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:36:05.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_this_site_dag.py for tasks to queue
+[2024-03-09T03:36:05.474+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:36:05.473+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:36:05.955+0000] {logging_mixin.py:188} INFO - [2024-03-09T03:36:05.949+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/scrape_this_site_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_this_site_dag.py", line 4, in <module>
+    from scrape_data_from_scrapethissite import scrape_countries_data,scrape_hockey_teams_data
+  File "/opt/airflow/dags/scrape_data_from_scrapethissite.py", line 6, in <module>
+    from database import upload_to_mongo
+  File "/opt/airflow/dags/database.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-03-09T03:36:05.957+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_this_site_dag.py
+[2024-03-09T03:36:05.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_this_site_dag.py took 0.503 seconds
